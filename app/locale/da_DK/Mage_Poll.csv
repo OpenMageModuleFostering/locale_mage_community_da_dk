@@ -15,7 +15,7 @@
 "Delete","Slet"
 "Delete Answer","Slet svar"
 "Delete Poll","Slet afstemning"
-"Disallow voting in a poll multiple times from same IP-address","Tillad ikke afstemning flere gange fra samme IP-adresse"
+"Disallow voting in a poll multiple times from same IP-address","Maks. én stemme fra samme IP-adresse"
 "Edit Answer '%s'","Rediger svar '%s'"
 "Edit Poll '%s'","Rediger afstemning '%s'"
 "Edit Poll Answer","Rediger svar"

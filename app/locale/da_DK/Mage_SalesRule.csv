@@ -71,7 +71,6 @@
 "Status","Status"
 "Stop further rules processing","Stop regelkørsel herefter"
 "Subtotal","Subtotal"
-"The page you are trying to save no longer exists","Siden du forsøger at gemme eksisterer ikke længere"
 "This rule no longer exists","Denne regel eksisterer ikke længere"
 "To Date","Udløbsdato"
 "To Fixed Amount","Pris som fast beløb"
@@ -86,4 +85,5 @@
 "Update the Product","Opdater produktet"
 "Uses per coupon","Anvendelser pr. kupon"
 "Uses per customer","Anvendelser pr. kunde"
+"Wrong rule specified.","Forkert regel angivet."
 "Yes","Ja"

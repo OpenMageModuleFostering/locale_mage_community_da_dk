@@ -22,7 +22,7 @@
 "Total of %d record(s) were successfully removed","I alt %d beskeder blev slettet"
 "Unable to proceed. Please, try again","Kan ikke fortsætte. Prøv igen"
 "Update frequency","Opdateringsfrekvens"
-"Use HTTPS to get feed","Brug HTTPS for at hente feed"
+"Use HTTPS to get feed","Hent feed via HTTPS"
 "critical","kritisk"
 "major","større"
 "minor","mindre"

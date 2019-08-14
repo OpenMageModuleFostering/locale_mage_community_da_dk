@@ -1,0 +1,48 @@
+<!--@subject Velkommen, {{var customer.name}}! @-->
+
+<style type="text/css">
+body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; }
+</style>
+
+<div style="font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;">
+    <table cellspacing="0" cellpadding="0" border="0" width="98%" style="margin-top:10px; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; margin-bottom:10px;">
+        <tr>
+            <td align="center" valign="top">
+                <!-- [ header starts here] -->
+                <table cellspacing="0" cellpadding="0" border="0" width="650">
+                    <tr>
+                        <td valign="top">
+                            <a href="{{store url=""}}"><img src="{{skin url="images/logo_email.gif" _area='frontend'}}" alt="Magento"  style="margin-bottom:10px;" border="0"/></a></td>
+                    </tr>
+                </table>
+
+                <!-- [ middle starts here] -->
+                <table cellspacing="0" cellpadding="0" border="0" width="650">
+                    <tr>
+                        <td valign="top">
+                            <p><strong>K&aelig;re {{var customer.name}}</strong>,<br/>
+                            For at logge ind p&aring; vores side skal du trykke p&aring; <a href="{{store url="customer/account/"}}" style="color:#1E7EC8;">Log ind</a> eller <a href="{{store url="customer/account/"}}" style="color:#1E7EC8;">Min Konto</a>, som er p&aring; toppen af hver side og indtaste din e-mail og kodeord.</p>
+
+                            <p>N&aring;r du logger ind p&aring; din konto vil du kunne g&oslash;re f&oslash;lgende:</p>
+
+                            <ul>
+                                <li>Komme hurtigere igennem betalingsprocessen n&aring;r du handler</li>
+                                <li>Checke status p&aring; dine ordrer</li>
+                                <li>Se tidligere ordre</li>
+                                <li>&AElig;ndre dine konto information</li>
+                                <li>&AElig;ndre kodeord</li>
+                                <li>Gemme alternative adresser  (Hvis du skal sende til b&aring;de familie og venner)</li>
+                            </ul>
+
+                            <p>Hvis du har sp&oslash;rgsm&aring;l omkring din konto eller noget som helst andet s&aring; kontakt os p&aring; e-mail <a href="mailto:magento@varien.com" style="color:#1E7EC8;">dummyemail@magentocommerce.com</a> eller telefon p&aring; (800) DEMO-STORE.</p>
+                          <p>Tak!</p>
+
+
+                        </td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+    </table>
+</div>

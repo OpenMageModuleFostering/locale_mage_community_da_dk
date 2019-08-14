@@ -1,0 +1,58 @@
+{* This is a comment block
+
+Use vars: {{var var_name}}
+*}<!--@subject Fejl i betalingstransaktion @-->
+
+<table>
+    <thead>
+        <tr>
+            <th>Fejl i betalingstransaktion.</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <p>
+                    <b>Årsag</b><br />
+                    {{var reason}}
+                </p>
+                <p>
+                    <b>Bestillingstype</b><br />
+                    {{var checkoutType}}
+                </p>
+                <p>
+                    <b>Kunde:</b><br />
+                    <a href="mailto:{{var customerEmail}}">{{var customer}}</a> &lt;{{var customerEmail}}&gt;
+                </p>
+                <p>
+                    <b>Produkter</b><br />
+                    {{var items}}
+                </p>
+                <p>
+                    <b>Total:</b><br />
+                    {{var total}}
+                </p>
+                <p>
+                    <b>Faktureringsadresse:</b><br />
+                    {{var billingAddress.format('html')}}
+                </p>
+                <p>
+                    <b>Leveringsadresse:</b><br />
+                    {{var shippingAddress.format('html')}}
+                </p>
+                <p>
+                    <b>Leveringsmetode:</b><br />
+                    {{var shippingMethod}}
+                </p>
+                <p>
+                    <b>Betalingsmetode:</b><br />
+                    {{var paymentMethod}}
+                </p>
+                <p>
+                    <b>Dato og tid:</b><br />
+                    {{var dateAndTime}}
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>

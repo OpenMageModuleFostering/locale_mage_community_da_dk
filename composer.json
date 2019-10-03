@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Locale_Mage_community_da_DK",
+    "name": "OpenMageModuleFostering\/Locale_Mage_community_da_DK",
     "type": "magento-module",
     "license": "Academic-Free-License-(AFL)",
     "homepage": "",
     "description": "Magento Community Modules -  Danish (Denmark) Language Pack",
     "authors": [
-    {
-        "name": "Anders Rasmussen",
-        "email": "andersadlibitum@gmail.com"
-    }
-],
+        {
+            "name": "Anders Rasmussen",
+            "email": "andersadlibitum@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
